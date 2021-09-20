@@ -1,0 +1,56 @@
+#IrCadastro{
+    padding: 2px;
+    border-radius: 20px;
+    color: black;
+    margin-right: 670px;
+    font-size: 28px;
+    background-color: #ececec;
+    border: solid 2px #ffffff;
+}
+#IrCadastro:hover{
+    color: rgb(255, 6, 6);
+}
+#lista{
+    margin-top: 25px;
+    width: 100%;
+}
+td{
+    background-color: #ececec;
+    font-size: 20px;
+}
+th{
+    width: 30%;
+    font-size: 20px;
+    background-color: #c9bdbd;
+}
+th:nth-child(1){
+    width:4%;
+}
+th:nth-child(2){
+    width:25%;
+}
+th:nth-child(3){
+    width:20%;
+}
+th:nth-child(4){
+    width:12%;
+}
+th:nth-child(5){
+    width:12%;
+}
+th:nth-child(6){
+    width:12%;
+}
+tr{
+    font-size: 2px;
+}
+.Option{
+    background-color:transparent;
+}
+.Option a{
+    color: #000;
+    font-size: small;
+}
+.Option a:hover{
+    color: #f00;
+}

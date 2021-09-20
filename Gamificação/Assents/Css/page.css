@@ -1,0 +1,43 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+body{
+    background-color: #c9bdbd;
+    display:flex ;
+}
+header{
+    text-align: center;
+    background-image: linear-gradient(#187aaf,#99d3df);
+    width: 20%;
+    min-width: 200px;
+    height: 100%;
+    position: fixed;
+}
+main{
+    border-radius: 25px;
+    background-image: linear-gradient(#187aaf,#99d3df);
+    margin-left: 25%;
+    margin-top: 3em;
+    width: 900px;
+    height: 500px;
+    text-align: center;
+}
+p{
+    text-align: left;
+    margin: 15px;
+}
+h3{
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+}
+main img{
+    height: 150px;
+    width: 150px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G A M I F I C A Ç Ã O</title>
+    <link rel="stylesheet" href="Assents/Css/page.css">
+    <link rel="stylesheet" href="Assents/Css/header.css">
+    <link rel="stylesheet" href="Assents/Css/mainCadastro.css">
+</head>
+<body>
+    <header>
+        <div id="Logo">
+            <a href="index.html">
+                <img src="Assents/Images/icon.svg">
+                <hr />
+                <h2>G A M I F I C A Ç Ã O</h2>
+            </a>
+        </div>
+        <div id="Menu">
+            <div id="gambiarra1">
+                <a href="cadastro.html">C<br/>A<br/>D<br/>A<br/>S<br/>T<br/>R<br/>O</a>
+            </div>
+            <div id="vertical"></div>
+            <div id="gambiarra2">
+                <a href="lista.html">L<br/>I<br/>S<br/>T<br/>A<br/>G<br/>E<br/>M</a>      
+            </div>
+        </div>
+        <div id="autores">
+            Acadêmicos: Pamela Bandeira Gerber e Vinicius Stumpf
+        </div>
+    </header>
+    <main>
+        <form>
+            <div class="inputs">
+                <label for="nome">Nome do item: </label><input type="text" maxlength="50" id="nome">
+            </div>
+            <div class="inputs">
+                <label for="medida">Unidade de medida: </label><select id="medida">
+                    <option  >Escolha uma opção</option>
+                    <option value="Litro">Litro(L)</option>
+                    <option value="quilograma">Quilograma(KG)</option>
+                    <option value="unidades">Unidade(UN)</option>
+                </select>
+            </div>
+            <div class="inputs">
+                <label for="quantidade">Quantidade: </label><input type="number"  id="quantidade">
+            </div>
+            <div class="inputs">
+                <label for="preco">Preço: </label><input type="number" id="preco">
+            </div>
+            <div class="inputsCheckbox">
+                <label for="perecivel">Perecível: </label><input class="Checkbox" type="checkbox"  id="perecivel">
+            </div>
+            <div class="inputs">
+                <label for="fabricacao">Data de Fabricação: </label><input type="date"  id="fabricacao">
+            </div>
+            <div class="inputs">
+                <button onclick="salvar()">Salvar</button> 
+            </div>
+        </form>
+        <script src="Assents/Js/crud.js"></script>
+    </main>
+</body>
+</html>

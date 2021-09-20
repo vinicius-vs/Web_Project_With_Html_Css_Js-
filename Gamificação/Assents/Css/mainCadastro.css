@@ -1,0 +1,42 @@
+form{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.inputs {
+    font-size: 75%;
+    width: 600px;
+    margin: 20px;
+    text-align: right;
+}
+.inputs input{
+    border: solid 2px #000;
+    width: 340px ;
+}
+.inputs select{
+    cursor: pointer;
+    border: solid 2px #000;
+    width: 340px;
+} 
+.inputsCheckbox{
+    font-size: 75%;
+    width: 600px;
+    margin: 20px;
+}
+.Checkbox{
+    cursor: pointer;
+    height: 25px;
+    margin-right:180px;
+    width: 30px;
+}
+.inputs button{
+    background-color: #ececec;
+    cursor: pointer;
+    border: solid 2px #ffffff;
+    border-radius: 30px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-right: 500px;
+}
+.inputs button:hover{
+    border: solid 2px #000;
+}
